@@ -19,6 +19,9 @@ dependencies:
     version: 0.7.3
 
 devDependencies:
+  '@iconify-json/bx':
+    specifier: ^1.1.7
+    version: 1.1.7
   '@slidev/cli':
     specifier: ^0.43.7
     version: 0.43.7(@types/markdown-it@13.0.4)(postcss@8.4.31)
@@ -551,6 +554,12 @@ packages:
       '@mrdrogdrog/optional': 1.2.1
       html-entities: 2.4.0
       markdown-it: 13.0.2
+    dev: true
+
+  /@iconify-json/bx@1.1.7:
+    resolution: {integrity: sha512-Ugh8uUU9VtK8fI9BBnhLA7VvhPh7erSmJz+eqjvl8HCRRjkz5mbMO5/KYpCOriUVdiiKB9Yv1ObMqS73WLMSwA==}
+    dependencies:
+      '@iconify/types': 2.0.0
     dev: true
 
   /@iconify-json/carbon@1.1.21:

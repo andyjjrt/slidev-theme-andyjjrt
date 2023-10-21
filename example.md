@@ -1,5 +1,7 @@
 ---
 theme: ./
+layout: cover
+url: https://andyjjrt.cc
 ---
 
 # Slidev Theme Starter

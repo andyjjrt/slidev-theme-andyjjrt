@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "slidev build example.md",
-    "dev": "slidev example.md --open",
+    "dev": "slidev example.md",
     "export": "slidev export example.md",
     "screenshot": "slidev export example.md --format png"
   },
@@ -22,6 +22,7 @@
     "theme-vitesse": "^0.7.3"
   },
   "devDependencies": {
+    "@iconify-json/bx": "^1.1.7",
     "@slidev/cli": "^0.43.7"
   },
   "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
@@ -30,10 +31,22 @@
     "highlighter": "all",
     "defaults": {
       "fonts": {
-        "sans": "Noto Sans TC",
-        "mono": "Noto Sans Mono"
+        "sans": "Outfit, Noto Sans TC",
+        "mono": "Ubuntu Mono"
       },
       "hightlighter": "prism"
     }
-  }
+  },
+  "description": "[![NPM version](https://img.shields.io/npm/v/slidev-theme-andyjjrt?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-andyjjrt)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyjjrt/slidev-theme-andyjjrt.git"
+  },
+  "author": "andyjjrt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andyjjrt/slidev-theme-andyjjrt/issues"
+  },
+  "homepage": "https://github.com/andyjjrt/slidev-theme-andyjjrt#readme"
 }
