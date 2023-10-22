@@ -9,9 +9,9 @@
 
   background-position: 80% 65%;
   background-repeat: no-repeat;
-  background-image: radial-gradient(farthest-side at 0% 100%, var(--slidev-theme-primary), #00000000);
+  background-image: radial-gradient(farthest-side at 0% 100%, var(--slidev-theme-primary), #FFFFFF00);
 
-  @apply px-14 py-10 h-full;
+  @apply px-14 py-10 h-full font-size-5;
 
   pre, code {
     @apply select-text;
@@ -171,10 +171,11 @@
   }
 }
 
-.dark .slidev-layout{
-  background-image: radial-gradient(farthest-side at 0% 100%, var(--slidev-theme-primary-dark), #00000000);
+html.dark{
+  .slidev-layout {
+    background-image: radial-gradient(farthest-side at 0% 100%, var(--slidev-theme-primary-dark), #00000000);
+  }
 }
-
 
 .slidev-code-copy {
   color: var(--prism-foreground)

@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-andyjjrt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "slidev-theme",
     "slidev"
@@ -23,7 +23,8 @@
   },
   "devDependencies": {
     "@iconify-json/bx": "^1.1.7",
-    "@slidev/cli": "^0.43.7"
+    "@slidev/cli": "^0.43.7",
+    "playwright-chromium": "^1.39.0"
   },
   "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
   "slidev": {
